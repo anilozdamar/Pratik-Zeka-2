@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Günlük Bilgi</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="banka1.css">
+</head>
+<body>
+
+<header>
+    <h1 class="text-center mt-4 mb-4">Her Gün Bir Bilgi İle Kültürlen !</h1>
+</header>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Doğa</h5>
+                    <div class="hidden-info" id="dogabilgi">Doğa ile ilgili bilgiler burada gösterilecek.</div>
+                    <button onclick="toggleInfo('doga')" class="btn btn-primary">Bilgi Al</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Tarih</h5>
+                    <div class="hidden-info" id="tarihbilgi">Tarih ile ilgili bilgiler burada gösterilecek.</div>
+                    <button onclick="toggleInfo('tarih')" class="btn btn-primary">Bilgi Al</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Uzay</h5>
+                    <div class="hidden-info" id="uzaybilgi">Uzay ile ilgili bilgiler burada gösterilecek.</div>
+                    <button onclick="toggleInfo('uzay')" class="btn btn-primary">Bilgi Al</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Spor</h5>
+                    <div class="hidden-info" id="sporbilgi">Spor ile ilgili bilgiler burada gösterilecek.</div>
+                    <button onclick="toggleInfo('spor')" class="btn btn-primary">Bilgi Al</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br><br><br>
+<div class="h4 pb-2 mb-4 text-danger border-bottom border-danger text-center">
+    Her Gün Bir Bilgi Öğrenerek 
+    Bu İşi Hobiye Dönüştür 
+    Hem Eğlen Hem Öğren !
+  </div>
+
+
+
+
+<footer class="fixed-bottom bg-dark text-white text-center py-2">
+    &copy; 2024 Günlük Bilgi Sitesi. Tüm hakları saklıdır.
+</footer>
+
+<script src="banka1.js"></script>
+</body>
+</html>
+

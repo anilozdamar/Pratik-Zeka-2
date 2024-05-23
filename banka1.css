@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("foto/bckgrand.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+header {
+    color: aliceblue;
+    padding: 40px 0; /* Daha fazla boşluk ekliyoruz */
+}
+
+h1 {
+    font-size: 48px; /* Başlık yazısını biraz büyütüyoruz */
+    margin-bottom: 10px; /* Başlık ve alt başlık arasına biraz boşluk ekliyoruz */
+}
+
+.header-subtitle {
+    font-size: 24px; /* Alt başlığı biraz büyütüyoruz */
+}
+
+.button-container {
+    margin-top: 20px; /* Butonların header'dan biraz aşağıda olmasını sağlıyoruz */
+}
+
+button {
+    font-size: 24px; /* Buton yazılarını biraz büyütüyoruz */
+    border-radius: 50px; /* Butonların köşelerini daha yuvarlak hale getiriyoruz */
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5); /* Footer'ın arkaplan rengini header ile uyumlu hale getiriyoruz */
+    padding: 20px 0; /* Daha fazla boşluk ekliyoruz */
+}
+
+h2 {
+    color: darkslateblue;
+    text-align: center;
+    margin-top: 50px; /* mt-5'e karşılık gelen bir değer */
+    font-size: 28px; /* Yazı boyutunu düşürüyoruz */
+    line-height: 1.5; /* Satır aralığını arttırarak metnin daha okunaklı olmasını sağlıyoruz */
+}
