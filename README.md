@@ -1,1 +1,0 @@
-# Pratik-Zeka-2
